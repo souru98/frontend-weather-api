@@ -5,7 +5,7 @@ $(document).ready(function()
             {
                 var text=$("#txt1").val();
                 $.ajax({
-                    url:"http://api.openweathermap.org/data/2.5/weather?q="+text+"&units=metric"+"&APPID=4a46e146e9f309dffad77471e3dd00ee",
+                    url:"http://api.openweathermap.org/data/2.5/weather?q="+text+"&units=metric"+"&APPID=721f1bf7346d1594961b9f09569d150a",
                     type:"GET",
                     datatype:"jsonp",
                     success:function(data)
