@@ -7,6 +7,7 @@
 }
 
 .grid-item1 {
+    padding-top: 150px;
     background-color: royalblue;
     display: grid;
 }
@@ -68,4 +69,8 @@ li {
 #tt {
     margin-left: 20%;
     margin-top: 20%;
+}
+
+h3 {
+    padding-top: 80px;
 }
